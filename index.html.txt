@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>AG Digital – Solutions numériques</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { margin:0; font-family:Arial, sans-serif; background:#ffffff; color:#333; }
+header { background:#0a5cff; color:white; padding:15px; text-align:center; }
+nav { margin-top:10px; }
+nav button { padding:6px 12px; border:none; margin:5px; cursor:pointer; }
+section { padding:25px; }
+.services { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:15px; }
+.card { border:1px solid #ddd; padding:15px; border-radius:8px; }
+.card h3 { color:#0a5cff; }
+.btn { display:inline-block; margin-top:10px; background:#0a5cff; color:white; padding:10px; text-decoration:none; border-radius:5px; }
+footer { background:#f2f2f2; text-align:center; padding:15px; font-size:14px; }
+</style>
+<script>
+function setLang(lang){document.querySelectorAll('[data-fr]').forEach(el=>{el.innerText=el.getAttribute('data-'+lang);});}
+</script>
+</head>
+<body>
+<header>
+<h1>AG Digital</h1>
+<p data-fr="Solutions numériques pour tous" data-en="Digital solutions for everyone">Solutions numériques pour tous</p>
+<nav>
+<button onclick="setLang('fr')">Français</button>
+<button onclick="setLang('en')">English</button>
+</nav>
+</header>
+<section>
+<h2 data-fr="Nos services" data-en="Our services">Nos services</h2>
+<div class="services">
+<div class="card">
+<h3>Adobe Photoshop</h3>
+<p data-fr="Installation, activation et assistance" data-en="Installation, activation and support">Installation, activation et assistance</p>
+<a class="btn" href="https://t.me/0839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Adobe+Photoshop">Envoyer la preuve sur Telegram</a>
+<a class="btn" href="https://wa.me/2430839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Adobe+Photoshop">Envoyer sur WhatsApp</a>
+</div>
+<div class="card">
+<h3>Canva Pro</h3>
+<p data-fr="Accès Canva Pro pour designers" data-en="Canva Pro access for designers">Accès Canva Pro pour designers</p>
+<a class="btn" href="https://t.me/0839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Canva+Pro">Envoyer la preuve sur Telegram</a>
+<a class="btn" href="https://wa.me/2430839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Canva+Pro">Envoyer sur WhatsApp</a>
+</div>
+<div class="card">
+<h3>Autres logiciels</h3>
+<p data-fr="Outils informatiques selon vos besoins" data-en="IT tools based on your needs">Outils informatiques selon vos besoins</p>
+<a class="btn" href="https://t.me/0839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Autres+logiciels">Envoyer la preuve sur Telegram</a>
+<a class="btn" href="https://wa.me/2430839214103?text=Bonjour,+je+veux+envoyer+la+preuve+de+paiement+pour+Autres+logiciels">Envoyer sur WhatsApp</a>
+</div>
+</div>
+</section>
+<section>
+<h2 data-fr="Paiement" data-en="Payment methods">Paiement</h2>
+<p data-fr="Paiement sécurisé via :" data-en="Secure payment via:">Paiement sécurisé via :</p>
+<ul>
+<li>M-Pesa: 0839214103</li>
+<li>Airtel Money: 0980791778</li>
+<li>WhatsApp: 0839214103</li>
+<li>Equity BCDC: à ajouter plus tard</li>
+</ul>
+</section>
+<footer>© 2025 AG Digital – Tous droits réservés</footer>
+</body>
+</html>
